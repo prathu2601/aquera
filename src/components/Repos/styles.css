@@ -1,0 +1,85 @@
+.repos_main{
+	min-height: 100vh;
+}
+
+.repos_container{
+	display: flex;
+	width: 85%;
+	margin: 80px auto 0 auto;
+}
+
+.profile_section{
+	flex: 0.3;
+	padding: 2%;
+}
+
+.user_repo_img{
+	display: flex;
+	justify-content: center;
+}
+
+.user_repo_img img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.user_log h1{
+	margin-bottom: 0px;
+}
+
+.repos_main_container{
+	flex: 1;
+	border-left: 1px solid;
+}
+
+.repos_section{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+
+.pagination{
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+@media (max-width:768px){
+	.repos_container{
+		flex-direction: column;
+	}
+
+	.profile_section{
+		display: flex;
+		padding: 0;
+	}
+
+	
+	.user_log{
+		margin-left: 10px;
+	}
+
+	.user_log h1{
+		font-size: 22px;
+		margin-top: 0px;
+	}
+
+	.user_repo_img{
+		display: block;
+		width: 30%;
+	}
+
+	.user_repo_img img{
+		height: auto;
+		width: 100%;
+	}
+
+	.repos_main_container{
+		border-left: none;
+		border-top: 1px solid;
+		padding-top: 10px;
+	}
+}
