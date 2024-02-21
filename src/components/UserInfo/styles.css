@@ -1,0 +1,27 @@
+.flex{
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-top: 3px;
+}
+
+.followers{
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-top: 3px;
+}
+
+@media (max-width:680){
+	.flex{
+		display: none;
+	}
+
+	.bio{
+		font-size: 14px;
+	}
+
+	.followers{
+		font-size: 14px;
+	}
+}
