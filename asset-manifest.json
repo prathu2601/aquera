@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/aquera/static/css/main.fb0f5b57.css",
-    "main.js": "/aquera/static/js/main.31b7049f.js",
+    "main.js": "/aquera/static/js/main.4f98cd64.js",
     "static/js/453.f36d3c6e.chunk.js": "/aquera/static/js/453.f36d3c6e.chunk.js",
     "index.html": "/aquera/index.html",
     "main.fb0f5b57.css.map": "/aquera/static/css/main.fb0f5b57.css.map",
-    "main.31b7049f.js.map": "/aquera/static/js/main.31b7049f.js.map",
+    "main.4f98cd64.js.map": "/aquera/static/js/main.4f98cd64.js.map",
     "453.f36d3c6e.chunk.js.map": "/aquera/static/js/453.f36d3c6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb0f5b57.css",
-    "static/js/main.31b7049f.js"
+    "static/js/main.4f98cd64.js"
   ]
 }
