@@ -1,0 +1,86 @@
+.profile_main{
+	height: 100vh;
+	width: 680px;
+	margin: 50px auto 0px auto;
+}
+
+.all_users{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	padding: 8px 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.profile_container{
+	display: flex;
+}
+
+.user_img img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.user_info{
+	flex: 1 1;
+	margin-left: 50px;
+}
+
+.user_info h1{
+	margin-bottom: 0px;
+}
+
+.repos_sec{
+	margin-top: 20px;
+}
+
+.repos_sec button{
+	width: 100%;
+	padding: 8px 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+@media (max-width: 680px){
+	.profile_main{
+		width: 100%;
+	}
+
+	.profile_container{
+		padding: 0 20px;
+	}
+
+	.user_img{
+		width: 30%;
+	}
+
+	.user_img img{
+		height: auto;
+		width: 100%;
+	}
+
+	.user_info{
+		margin-left: 10px;
+	}
+
+	.user_info h1{
+		font-size: 22px;
+		margin-top: 0px;
+	}
+	
+	.all_users{
+		font-size: 12px;
+		padding: 4px 6px;
+	}
+	
+	.repos_sec button{
+		padding: 4px 6px;
+		font-size: 12px;
+	}
+}
